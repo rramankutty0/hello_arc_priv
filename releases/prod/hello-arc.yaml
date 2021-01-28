@@ -6,9 +6,10 @@ metadata:
 spec:
   releaseName: hello-arc-prod
   chart:
-    git: https://github.com/likamrat/hello_arc.git
+    git: https://github.com/rramankutty0/hello_arc_priv.git
     path: charts/hello-arc
     ref: master
+    secretRef: 26d11aab449bded4750570786186ba8af8f2cd74
   values:
     image:
       repository: liorkamrat/hello-arc
