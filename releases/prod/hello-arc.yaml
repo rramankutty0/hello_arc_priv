@@ -10,7 +10,7 @@ spec:
     ref: master
     #git: https://github.com/rramankutty0/hello_arc_priv.git
     #secretRef: 26d11aab449bded4750570786186ba8af8f2cd74
-    git: https://github.com/likamrat/hello_arc.git
+    git: https://github.com/rramankutty0/hello_arc.git
   values:
     image:
       repository: liorkamrat/hello-arc
