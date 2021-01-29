@@ -11,8 +11,7 @@ spec:
     git: "https://github.com/rramankutty0/hello_arc_priv"
     secretRef:
       name: hello-arc-secret
-      #namespace: default
-    #git: https://github.com/rramankutty0/hello_arc.git
+      namespace: prod
   values:
     image:
       repository: liorkamrat/hello-arc
