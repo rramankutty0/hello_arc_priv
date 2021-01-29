@@ -9,7 +9,9 @@ spec:
     path: charts/hello-arc
     ref: master
     git: https://github.com/rramankutty0/hello_arc_priv.git
-    secretRef: 26d11aab449bded4750570786186ba8af8f2cd74
+    secretRef:
+      name: hello-arc-secret
+      namespace: default
     #git: https://github.com/rramankutty0/hello_arc.git
   values:
     image:
